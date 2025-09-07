@@ -7,11 +7,12 @@ import {
     Header,
 } from "../containers";
 import { Cta, Brand, Navbar } from "../components";
+import "./page.css";
 
 export default function Home() {
     return (
         <div className="App">
-            <div className="gradient_bg">
+            <div className="gradient__bg">
                 <Navbar />
                 <Header />
             </div>
