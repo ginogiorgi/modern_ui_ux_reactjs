@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="gpt5__navbar">
             <div className="gpt5__navbar-links">
                 <div className="gpt5__navbar-links_logo">
-                    <img src="/logo.svg" alt="logo" />
+                    <img src="logo.svg" alt="logo" />
                 </div>
                 <div className="gpt5__navbar-links_container">
                     <Menu />
