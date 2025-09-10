@@ -1,10 +1,10 @@
-import { Feature } from "../";
+import { Feature } from "../../components";
 import "./whatGPT5.css";
 
 const WhatGPT5 = () => {
     return (
         <div className="gpt5__whatgpt5 section__margin" id="wgpt5">
-            <div className="gpt5__whatgpt5-feature">
+            <div className="gpt5__whatgpt5-features">
                 <Feature
                     title="What is GPT-5"
                     text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."

@@ -2,7 +2,7 @@ import {
     Footer,
     Blog,
     Possibility,
-    Feature,
+    Features,
     WhatGPT5,
     Header,
 } from "../containers";
@@ -18,6 +18,7 @@ export default function Home() {
             </div>
             <Brand />
             <WhatGPT5 />
+            <Features />
             <Possibility />
             <Cta />
             <Blog />

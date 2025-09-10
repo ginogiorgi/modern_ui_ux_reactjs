@@ -47,13 +47,13 @@
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.gpt5__whatgpt5-feature {
+.gpt5__whatgpt5-features {
     display: flex;
 }
-.gpt5__whatgpt5-feature .gpt5__feature-container__feature {
+.gpt5__whatgpt5-features .gpt5__features-container__feature {
     margin: 0;
 }
-.gpt5__whatgpt5-feature .gpt5__feature-container_feature-text {
+.gpt5__whatgpt5-features .gpt5__features-container_feature-text {
     max-width: 700px;
 }
 .gpt5__whatgpt5-heading {
@@ -84,14 +84,14 @@
     flex-direction: row;
     margin-top: 2rem;
 }
-.gpt5__whatgpt5-container .gpt5__feature-container__feature {
+.gpt5__whatgpt5-container .gpt5__features-container__feature {
     flex: 1;
     margin: 1rem;
     min-width: 210px;
     display: unset;
     flex-direction: column;
 }
-.gpt5__whatgpt5-container .gpt5__feature-container_feature-text {
+.gpt5__whatgpt5-container .gpt5__features-container_feature-text {
     margin-top: 0.5rem;
 }
 
@@ -106,10 +106,10 @@
     }
 }
 @media screen and (max-width: 650px) {
-    .gpt5__whatgpt5-feature .gpt5__feature-container__feature {
+    .gpt5__whatgpt5-features .gpt5__features-container__feature {
         flex-direction: column;
     }
-    .gpt5__whatgpt5-feature .gpt5__feature-container_feature-text {
+    .gpt5__whatgpt5-features .gpt5__features-container_feature-text {
         margin-top: 0.5rem;
     }
     .gpt5__whatgpt5-heading h1 {
@@ -118,7 +118,7 @@
     }
 }
 @media screen and (max-width: 350px) {
-    .gpt5__whatgpt5-container .gpt5__feature-container__feature {
+    .gpt5__whatgpt5-container .gpt5__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
     }
