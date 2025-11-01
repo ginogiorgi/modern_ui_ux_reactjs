@@ -1,0 +1,41 @@
+.gpt5__cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+}
+.gpt5__cta-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.gpt5__cta-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+.gpt5__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.gpt5__cta-btn button {
+    width: 189px;
+    height: 59px;
+    border-radius: 40px;
+    border: none;
+    background: black;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
