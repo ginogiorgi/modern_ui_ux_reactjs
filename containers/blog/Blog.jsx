@@ -1,7 +1,7 @@
 import "./blog.css";
 
 const Blog = () => {
-    return <div>Blog</div>;
+    return <div></div>;
 };
 
 export default Blog;
