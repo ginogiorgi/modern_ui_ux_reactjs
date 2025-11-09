@@ -17,6 +17,9 @@ const Header = () => {
                     <input
                         type="email"
                         placeholder="ginorubengiorgi@gmail.com"
+                        id="header-email-input"
+                        name="email"
+                        autoComplete="email"
                     />
                     <button type="button">Get Started</button>
                 </div>
